@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "PUBLIC" "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.maoyan.air.nb.toolplatform.dao.mapper.manual.WishPOManualMapper">
+  <sql id="queryCondition">
+    <trim prefix=" WHERE " suffixOverrides="AND | OR">
+      <if test="status != null">and status = #{wishPO.status,jdbcType=TINYINT}</if>
+    </trim>
+  </sql>
+  <insert useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="com.maoyan.air.nb.toolplatform.domain.schema.WishPO">insert into tp_wish
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">user_id</if>
+      <if test="userId != null">user_id</if>
+      <if test="userId != null">user_id</if>
+      <if test="userId != null">user_id</if>
+      <if test="userId != null">user_id</if>
+      <if test="userId != null">user_id</if>
+      <if test="userId != null">user_id</if>
+      <if test="userId != null">user_id</if>
+      <if test="userId != null">user_id</if>
+      <if test="userId != null">user_id</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">#{userId,jdbcType=INTEGER},</if>
+    </trim>
+  </insert>
+  <update useGeneratedKeys="true" parameterType="com.maoyan.air.nb.toolplatform.domain.schema.WishPO">update tp_wish
+    <set>
+      <if test="userId != null">#{userId,jdbcType=INTEGER},</if>
+    </set> where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="getList" resultType="com.maoyan.air.nb.toolplatform.domain.schema.WishPO">select
+    <include refid="com.maoyan.air.nb.toolplatform.dao.mapper.WishPOMapper.Base_Column_Lis"/>from tp_wish where
+    <include refid="queryCondition"/>
+    <if test=" offset != null and limit != nul ">limit #{offset},#{limit}</if>
+  </select>
+  <select id="getCount" resultType="java.lang.Integer">select count(id) from tp_wish where 
+    <include refid="queryCondition"/>
+  </select>
+</mapper>
