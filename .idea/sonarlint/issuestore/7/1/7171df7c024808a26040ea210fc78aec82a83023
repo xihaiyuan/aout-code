@@ -1,0 +1,37 @@
+
+Osquid:S1135–"2Complete the task associated to this TODO comment.(¨ëøùÿÿÿÿ
+nsquid:S00117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô‡Âüÿÿÿÿ
+osquid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÚ©øÿÿÿÿ
+Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+jsquid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÌ­
+Osquid:S1135 "2Complete the task associated to this TODO comment.(À€ğùÿÿÿÿ
+Ssquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+Isquid:S1135w"2Complete the task associated to this TODO comment.(¸şØ
+P
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(Ï£œ
+isquid:S00117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñè™
+T
+squid:S106d"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
+jsquid:S11923"SDefine a constant instead of duplicating this literal "$T.out.println($S)" 3 times.(±ı¼
+@squid:S1148²"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+asquid:S2259­"DA "NullPointerException" could be thrown; "writer" is nullable here.(¿Ç™Áúÿÿÿÿ
+Isquid:S1135n"2Complete the task associated to this TODO comment.(Ä†ªÀ
+fsquid:UselessImportCheck"BRemove this unused import 'sun.reflect.generics.scope.ClassScope'.(œÙ–Ö
+esquid:UselessImportCheck"<Remove this unused import 'java.lang.annotation.Documented'.(¯™Ò¯øÿÿÿÿ
+@squid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+_squid:UselessImportCheck";Remove this unused import 'java.lang.reflect.TypeVariable'.(¯­å„
+Jsquid:S1135Œ"2Complete the task associated to this TODO comment.(ÇÀÍÕ
+Zsquid:UselessImportCheck"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+isquid:UselessImportCheck"@Remove this unused import 'java.lang.reflect.ParameterizedType'.(ÎÏ˜™ÿÿÿÿÿ
+?squid:S1148f"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148¨"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+U
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(ÿß”Ìøÿÿÿÿ
+Nsquid:S1135z"2Complete the task associated to this TODO comment.(ÏæÈŸøÿÿÿÿ
+Lsquid:S1191"5Use classes from the Java API instead of Sun classes.(œÙ–Ö
+]squid:S2147§"ECombine this catch with the one at line 165, which has the same body.(‹±ÃÆ
+T
+squid:S106>"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
+nsquid:S00117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¶ã…ıÿÿÿÿ

@@ -1,0 +1,18 @@
+
+psquid:S2068—"Q'pwd' detected in this expression, review this potentially hard-coded credential.(½¾¨º8òÙé©š.
+jsquid:S00112u"FDefine and throw a dedicated exception instead of using a generic one.(•ªü şÿÿÿÿ8òÙé©š.
+jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.( ·şü8òÙé©š.
+dsquid:S1858Œ"E"toUpperCase" returns a string, there's no need to call "toString()".(Ñ§Û®8òÙé©š.
+isquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(›¯Û¡8òÙé©š.
+Fsquid:S1148M"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òÙé©š.
+ksquid:S00112Š"FDefine and throw a dedicated exception instead of using a generic one.(’›Öçÿÿÿÿÿ8òÙé©š.
+[
+squid:S1063"9Replace this use of System.out or System.err by a logger.(Î×İÊùÿÿÿÿ8òÙé©š.
+Fsquid:S1148O"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òÙé©š.
+bsquid:S2147N"DCombine this catch with the one at line 76, which has the same body.(”ı¾8òÙé©š.
+osquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(•úÒşÿÿÿÿ8òÙé©š.
+fsquid:S00112†"FDefine and throw a dedicated exception instead of using a generic one.(†Ø•ä8òÙé©š.
+Fsquid:S1148T"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òÙé©š.
+\
+squid:S106¦"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8òÙé©š.
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òÙé©š.
