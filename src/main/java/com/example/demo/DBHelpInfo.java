@@ -94,4 +94,16 @@ public class DBHelpInfo {
 
     }
 
+    public static Connection getConnections(String driver , String url){
+        try {
+            //Properties props =new Properties();
+            //props.put("remarksReporting","true");
+            Class.forName(driver);
+            getConnection=DriverManager.getConnection(url);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return getConnection;
+    }
+
 }

@@ -15,6 +15,7 @@ import lombok.Data;
  */
 @Data
 public class Field {
-    private String name;
-    private String type;
+    private String columnName;
+    private String typeName;
+    private String comment;
 }

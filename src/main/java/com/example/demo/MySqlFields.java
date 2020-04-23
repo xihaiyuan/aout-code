@@ -80,8 +80,8 @@ public class MySqlFields {
         for(int i = 1; i<=count; i++){
             Field field = new Field();
 
-            field.setName(metaData.getColumnName(i));
-            field.setType(metaData.getColumnTypeName(i));
+            field.setColumnName(metaData.getColumnName(i));
+            field.setTypeName(metaData.getColumnTypeName(i));
 
             colNameList.add(metaData.getColumnName(i));
 

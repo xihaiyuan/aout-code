@@ -12,21 +12,38 @@ import javax.lang.model.element.Modifier;
 import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class CreateJavaDocument {
     //生成dot
-    public  void creatJavaDto() {
+    public  void creatJavaDto(List<Field> fieldList) {
 
+        List<FieldSpec> specsList = new ArrayList<>();
 
-        //todo 读取数据库字段循环生成
-        FieldSpec fieldSpec = FieldSpec.builder(String.class, "test", Modifier.PRIVATE).build();
+        fieldList.forEach(item->{
+            FieldSpec fieldSpec =FieldSpec.builder(String.class, item.getColumnName(), Modifier.PRIVATE).addJavadoc(item.getComment()).build();
+            specsList.add(fieldSpec);
+        });
+
+//        //todo 读取数据库字段循环生成
+//        FieldSpec fieldSpec = FieldSpec.builder(String.class, "test", Modifier.PRIVATE).addJavadoc("测试").build();
+//        FieldSpec fieldSpec2 = FieldSpec.builder(String.class, "test2", Modifier.PRIVATE).build();
+//        FieldSpec fieldSpec3 = FieldSpec.builder(String.class, "test3", Modifier.PRIVATE).build();
+//
+//
+//
+//        specsList.add(fieldSpec);
+//        specsList.add(fieldSpec2);
+//        specsList.add(fieldSpec3);
 
         TypeSpec helloWorld = TypeSpec.classBuilder("WishDTO")
                 .addModifiers(Modifier.PUBLIC)
                 .addSuperinterface(Serializable.class)
                 .addAnnotation(Data.class)
-                .addField(fieldSpec)
+                //.addField(fieldSpec)//单个增加属性
+                .addFields(specsList) //批量增加属性
                 .build();
 
 
