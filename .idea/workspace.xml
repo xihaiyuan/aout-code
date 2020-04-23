@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a6fd423-8501-4741-a331-bb2e086e8b85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b98b5f2c0b0593381b39c3e7b1d693a11a25f88" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b98b5f2c0b0593381b39c3e7b1d693a11a25f88" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/100b5ff668af182aa46cb5478968609bcffbee6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/100b5ff668af182aa46cb5478968609bcffbee6c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b93f044004384e08a4109a74ff5c0b139482b901" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b93f044004384e08a4109a74ff5c0b139482b901" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3b9e77304cf4c63a4ae8ca8c6bcea221ac94270" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3b9e77304cf4c63a4ae8ca8c6bcea221ac94270" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5411f05a8da66bc488dc129aaa58fc8d4a944ed" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5411f05a8da66bc488dc129aaa58fc8d4a944ed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9b03bcb2fa79c5d3ecb624eedee0763c910d08e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9b03bcb2fa79c5d3ecb624eedee0763c910d08e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/CreatCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/CreatCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/CreateJavaDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/CreateJavaDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/maoyan/air/nb/toolplatform/domain/Biz/WishBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/maoyan/air/nb/toolplatform/domain/Biz/WishBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/CreatCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/CreatCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/CreateJavaDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/CreateJavaDocument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generator/MySQLGeneratorEntityUtil.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +26,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
+          <entry key="CLASS" value="8" />
           <entry key="JAVA" value="55" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="2" />
@@ -69,16 +56,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/maoyan/air/nb/toolplatform/domain/Biz/WishBiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="540">
+              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,19 +77,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar!/com/squareup/javapoet/TypeSpec.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="649" column="32" selection-start-line="649" selection-start-column="32" selection-end-line="649" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/CreatCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+            <state relative-caret-position="132">
+              <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -110,8 +88,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/CreateJavaDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="293" column="40" selection-start-line="293" selection-start-column="40" selection-end-line="293" selection-end-column="40" />
+            <state relative-caret-position="212">
+              <caret line="246" column="16" selection-start-line="246" selection-start-column="8" selection-end-line="246" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar!/com/squareup/javapoet/ParameterizedTypeName.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar!/com/squareup/javapoet/ClassName.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -145,15 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar!/com/squareup/javapoet/TypeName.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3699">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -178,6 +165,7 @@
       <find>exceptions</find>
       <find>methodBuilder</find>
       <find>returns</find>
+      <find>ParameterizedTypeName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -457,7 +445,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587641120014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587641854734" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -589,12 +577,12 @@
       <workItem from="1587630648470" duration="139000" />
       <workItem from="1587630812407" duration="260000" />
       <workItem from="1587631097973" duration="3266000" />
-      <workItem from="1587636433186" duration="2654000" />
+      <workItem from="1587636433186" duration="3294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20386000" />
+    <option name="totallyTimeSpent" value="21026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,9 +595,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29041487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29041487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -620,13 +607,13 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18471338" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.08535032" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22038217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1656051" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14394905" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.40509555" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299363" />
       <window_info anchor="bottom" id="SonarLint" order="11" weight="0.3299363" />
@@ -888,39 +875,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/CreatCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/maoyan/air/nb/toolplatform/domain/Adapter/Adapter.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/maoyan/air/nb/toolplatform/domain/Biz/WishBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/maoyan/air/nb/toolplatform/domain/service/IWishService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/maoyan/air/nb/toolplatform/domain/Biz/WishBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/CreatCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar!/com/squareup/javapoet/ClassName.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar!/com/squareup/javapoet/ParameterizedTypeName.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/CreateJavaDocument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="293" column="40" selection-start-line="293" selection-start-column="40" selection-end-line="293" selection-end-column="40" />
+        <state relative-caret-position="212">
+          <caret line="246" column="16" selection-start-line="246" selection-start-column="8" selection-end-line="246" selection-end-column="16" />
         </state>
       </provider>
     </entry>
