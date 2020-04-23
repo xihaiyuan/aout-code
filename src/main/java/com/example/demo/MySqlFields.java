@@ -44,7 +44,7 @@ public class MySqlFields {
      * @return
      * @throws SQLException
      */
-    private static List<String> getTables(Connection conn) throws SQLException {
+    public static List<String> getTables(Connection conn) throws SQLException {
         DatabaseMetaData databaseMetaData = conn.getMetaData();
         ResultSet tables = databaseMetaData.getTables(null, null, "%", null);
         ArrayList<String> tablesList = new ArrayList<String>();
@@ -58,7 +58,7 @@ public class MySqlFields {
      * @param rs
      * @throws SQLException
      */
-    private static List<String> getColNames(ResultSet rs) throws SQLException {
+    public static List<String> getColNames(ResultSet rs) throws SQLException {
         ResultSetMetaData metaData = rs.getMetaData();
         int count = metaData.getColumnCount();
         System.out.println("getCatalogName(int column) 获取指定列的表目录名称。"+metaData.getCatalogName(1));
