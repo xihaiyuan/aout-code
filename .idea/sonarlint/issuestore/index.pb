@@ -25,3 +25,13 @@ Dsrc/main/test/com/maoyan/air/nb/toolplatform/domain/dto/WishDTO.java,0/b/0b98b
 .src/main/java/com/example/demo/DBHelpInfo.java,b/9/b93f044004384e08a4109a74ff5c0b139482b901
 t
 Dsrc/main/test/com/maoyan/air/nb/toolplatform/domain/Biz/WishBiz.java,e/6/e61304c72fc77d20f9d9b6632e62270072f71410
+l
+<src/main/java/com/example/demo/MySQLGeneratorEntityUtil.java,8/f/8f829edebf82bffd7e5dd135041435523c74db09
+s
+Csrc/main/test/com/maoyan/air/nb/toolplatform/domain/dto/WishPO.java,f/3/f305ff3cf244ad10cd29f8b0bf1a6dad50adea1d
+x
+Hsrc/main/test/com/maoyan/air/nb/toolplatform/domain/Adapter/Adapter.java,6/a/6abbaeb7ff868d2b718d9fc7f92fbacc8cc71526
+}
+Msrc/main/test/com/maoyan/air/nb/toolplatform/domain/service/IWishService.java,b/4/b47d873e756956c37ae3eb6a981c5e2a0e6008c1
+z
+Jsrc/main/test/com/maoyan/air/nb/toolplatform/domain/poMapper/poMapper.java,f/f/ff9518d78682daa399f9229167ba76a6c20f18fe

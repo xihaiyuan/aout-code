@@ -42,7 +42,14 @@ public class CreatCode {
         if (CollectionUtils.isEmpty(fieldList)) {
             System.out.println("无数据");
         }else{
+            //生成dto
             javaDocument.creatJavaDto(fieldList);
+            //生成接口
+            javaDocument.creatJavaInterface();
+            //生成Service接口
+            javaDocument.creatService();
+            //生成接口Biz
+            javaDocument.creatBiz();
         }
     }
 

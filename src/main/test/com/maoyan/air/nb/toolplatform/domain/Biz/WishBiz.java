@@ -3,6 +3,7 @@ package com.maoyan.air.nb.toolplatform.domain.Biz;
 import com.maoyan.air.nb.toolplatform.domain.dto.WishDTO;
 import com.maoyan.air.nb.toolplatform.domain.service.IWishService;
 import java.lang.Integer;
+import java.util.List;
 import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 
@@ -35,7 +36,7 @@ public class WishBiz {
   /**
    * 获取数据列表
    */
-  public void getList(WishDTO wishDto, Integer limit, Integer offset) {
+  public List<WishDTO> getList(WishDTO wishDto, Integer limit, Integer offset) {
     return wishService.getList(wishDto,limit,offset);
   }
 }

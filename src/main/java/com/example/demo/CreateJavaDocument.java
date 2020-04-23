@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.LogRecord;
 
 @RestController
 public class CreateJavaDocument {
@@ -290,12 +291,15 @@ public class CreateJavaDocument {
                 .addMethod(MethodSpec.methodBuilder("getList")
                         .addJavadoc("获取数据列表")
                         .addModifiers(Modifier.PUBLIC)
+                        .returns(listDto)
                         .addCode("return wishService.getList(wishDto,limit,offset);\n",bundleDto,bundleDto)
                         .addParameter(ParameterDTO)
                         .addParameter(limit)
                         .addParameter(offset)
                         .build())
                 .build();
+
+
 
 
 
