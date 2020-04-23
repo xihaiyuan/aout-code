@@ -1,56 +1,56 @@
 
-isquid:S00117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ó°ç
-Osquid:S1135µ"2Complete the task associated to this TODO comment.(Ú³ýÊùÿÿÿÿ
-jsquid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ßÖ’
-Nsquid:S11352"2Complete the task associated to this TODO comment.(Ú³ýÊùÿÿÿÿ
-Esquid:S1481‰".Remove this unused "arrayList" local variable.(”ßêT
-@squid:S1148ñ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-osquid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‡ß–øÿÿÿÿ
-U
-squid:S106½"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
-?squid:S1148i"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-`squid:S1192W"IDefine a constant instead of duplicating this literal "getCount" 3 times.(“–£Ñ
-Nsquid:S1135]"2Complete the task associated to this TODO comment.(Ú³ýÊùÿÿÿÿ
-jsquid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ó°ç
-T
-squid:S106;"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
-Isquid:S1481ý",Remove this unused "listDto" local variable.(ûî¸Áÿÿÿÿÿ
-asquid:S1192‰"JDefine a constant instead of duplicating this literal "ArrayList" 3 times.(”ßêT
-~squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8ÐÌö­š.
-Isquid:S1135r"2Complete the task associated to this TODO comment.(Ïàí“
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Í‹î8ÑúÞ°š.
-Osquid:S1135”"2Complete the task associated to this TODO comment.(¨ëøùÿÿÿÿ
-@squid:S1148±"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-jsquid:S1192<"NDefine a constant instead of duplicating this literal "src/main/test" 5 times.(ÃìÐÀúÿÿÿÿ
-Osquid:S1135·"2Complete the task associated to this TODO comment.(Ž­Ä±ûÿÿÿÿ
-@squid:S1148Â"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-^squid:S1192S"HDefine a constant instead of duplicating this literal "getList" 3 times.(ö¯­i
-jsquid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûî¥é
-Nsquid:S1135v"2Complete the task associated to this TODO comment.(Ž­Ä±ûÿÿÿÿ
-jsquid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûî¥é
-?squid:S1148?"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-Osquid:S1135å"2Complete the task associated to this TODO comment.(Ú³ýÊùÿÿÿÿ
-jsquid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ýØí
-Esquid:S1481¼".Remove this unused "arrayList" local variable.(”ßêT
-T
-squid:S106e"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
-jsquid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ó°ç
 U
 squid:S106¬"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
+T
+squid:S106e"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
+Nsquid:S1135~"2Complete the task associated to this TODO comment.(“û¬Šüÿÿÿÿ
+jsquid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûî¥é
+Osquid:S1135å"2Complete the task associated to this TODO comment.(Ú³ýÊùÿÿÿÿ
+isquid:S00117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ó°ç
+jsquid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ó°ç
+@squid:S1148±"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Nsquid:S1481Š"6Remove this unused "listOfHoverboards" local variable.(áŠýð
+`squid:S1192W"IDefine a constant instead of duplicating this literal "getCount" 3 times.(“–£Ñ
+~squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8ÐÌö­š.
+osquid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‡ß–øÿÿÿÿ
+Nsquid:S11352"2Complete the task associated to this TODO comment.(Ú³ýÊùÿÿÿÿ
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Í‹î8ÑúÞ°š.
+U
+squid:S106½"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
+Nsquid:S1135]"2Complete the task associated to this TODO comment.(Ú³ýÊùÿÿÿÿ
+T
+squid:S106;"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
+jsquid:S1192<"NDefine a constant instead of duplicating this literal "src/main/test" 5 times.(ÃìÐÀúÿÿÿÿ
+Esquid:S1481û".Remove this unused "arrayList" local variable.(”ßêT
+gsquid:S1192ˆ"JDefine a constant instead of duplicating this literal "java.util" 6 times.(×Ž¹Øùÿÿÿÿ
+Osquid:S1135”"2Complete the task associated to this TODO comment.(¨ëøùÿÿÿÿ
+jsquid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ýØí
+?squid:S1148i"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+jsquid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ó°ç
+Usquid:S1135"2Complete the task associated to this TODO comment.(¥ëËíøÿÿÿÿ8¶ðÚ°š.
 Osquid:S1135¤"2Complete the task associated to this TODO comment.(Ú³ýÊùÿÿÿÿ
+Esquid:S1481‰".Remove this unused "arrayList" local variable.(”ßêT
+isquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(ÇÀÿ±8ÑúÞ°š.
+asquid:S1192‰"JDefine a constant instead of duplicating this literal "ArrayList" 3 times.(”ßêT
+Isquid:S1135r"2Complete the task associated to this TODO comment.(Ïàí“
+?squid:S1148?"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Hsquid:S1481ƒ"0Remove this unused "ParameterPo" local variable.(¶ýØí
+^squid:S1192K"GDefine a constant instead of duplicating this literal "insert" 3 times.(þ¸°°
+Osquid:S1135·"2Complete the task associated to this TODO comment.(Ž­Ä±ûÿÿÿÿ
+@squid:S1148ñ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+_squid:S1192{"HDefine a constant instead of duplicating this literal "wishDto" 3 times.(Ûî¥é
 U
 squid:S106í"9Replace this use of System.out or System.err by a logger.(Í±¾¼úÿÿÿÿ
-Esquid:S1481û".Remove this unused "arrayList" local variable.(”ßêT
-^squid:S1192K"GDefine a constant instead of duplicating this literal "insert" 3 times.(þ¸°°
-€squid:S11923"jDefine a constant instead of duplicating this literal "com.maoyan.air.nb.toolplatform.domain.dto" 5 times.(‘£‘K
-Hsquid:S1481ƒ"0Remove this unused "ParameterPo" local variable.(¶ýØí
 isquid:S00117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûî¥é
-_squid:S1192{"HDefine a constant instead of duplicating this literal "wishDto" 3 times.(Ûî¥é
-isquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(ÇÀÿ±8ÑúÞ°š.
-Usquid:S1135"2Complete the task associated to this TODO comment.(¥ëËíøÿÿÿÿ8¶ðÚ°š.
-gsquid:S1192ˆ"JDefine a constant instead of duplicating this literal "java.util" 6 times.(×Ž¹Øùÿÿÿÿ
-osquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú»Òýÿÿÿÿ
-Nsquid:S1481Š"6Remove this unused "listOfHoverboards" local variable.(áŠýð
-Nsquid:S1135~"2Complete the task associated to this TODO comment.(“û¬Šüÿÿÿÿ
+^squid:S1192S"HDefine a constant instead of duplicating this literal "getList" 3 times.(ö¯­i
+jsquid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûî¥é
 ^squid:S1192O"GDefine a constant instead of duplicating this literal "update" 3 times.(Äíð
+Isquid:S1481ý",Remove this unused "listDto" local variable.(ûî¸Áÿÿÿÿÿ
 fsquid:S1192)"HDefine a constant instead of duplicating this literal "WishDTO" 4 times.(Œƒ÷Õ8Ãšî°š.
+Osquid:S1135µ"2Complete the task associated to this TODO comment.(Ú³ýÊùÿÿÿÿ
+€squid:S11923"jDefine a constant instead of duplicating this literal "com.maoyan.air.nb.toolplatform.domain.dto" 5 times.(‘£‘K
+jsquid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ßÖ’
+@squid:S1148Â"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Esquid:S1481¼".Remove this unused "arrayList" local variable.(”ßêT
+osquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú»Òýÿÿÿÿ
+Nsquid:S1135v"2Complete the task associated to this TODO comment.(Ž­Ä±ûÿÿÿÿ

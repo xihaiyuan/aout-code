@@ -23,20 +23,13 @@ public class CreateJavaDocument {
         List<FieldSpec> specsList = new ArrayList<>();
 
         fieldList.forEach(item->{
+            String typeClass =  item.getTypeName()+".class";
+
             FieldSpec fieldSpec =FieldSpec.builder(String.class, item.getColumnName(), Modifier.PRIVATE).addJavadoc(item.getComment()).build();
             specsList.add(fieldSpec);
         });
 
-//        //todo 读取数据库字段循环生成
-//        FieldSpec fieldSpec = FieldSpec.builder(String.class, "test", Modifier.PRIVATE).addJavadoc("测试").build();
-//        FieldSpec fieldSpec2 = FieldSpec.builder(String.class, "test2", Modifier.PRIVATE).build();
-//        FieldSpec fieldSpec3 = FieldSpec.builder(String.class, "test3", Modifier.PRIVATE).build();
-//
-//
-//
-//        specsList.add(fieldSpec);
-//        specsList.add(fieldSpec2);
-//        specsList.add(fieldSpec3);
+
 
         TypeSpec helloWorld = TypeSpec.classBuilder("WishDTO")
                 .addModifiers(Modifier.PUBLIC)
