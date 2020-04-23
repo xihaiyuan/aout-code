@@ -12,7 +12,6 @@ import java.io.*;
 
 @RestController
 public class CreatMapperXml {
-    @RequestMapping(value = "/test4")
     public  void creatMapperXml() {
         //todo 根据表名生成命名空间
         String Namespace = "com.maoyan.air.nb.toolplatform.dao.mapper.manual.WishPOManualMapper";

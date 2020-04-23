@@ -16,7 +16,6 @@ import java.io.Serializable;
 @RestController
 public class CreateJavaDocument {
     //生成dot
-    @RequestMapping(value = "/test5")
     public  void creatJavaDto() {
 
 
@@ -50,7 +49,6 @@ public class CreateJavaDocument {
     }
 
     //生成接口
-    @RequestMapping(value = "/test6")
     public void creatJavaInterface() {
 
 
@@ -93,7 +91,6 @@ public class CreateJavaDocument {
     }
 
     //生成Adapter文件
-    @RequestMapping(value = "/test7")
     public void creatAdapter(){
         //获取po文件地址：
 
