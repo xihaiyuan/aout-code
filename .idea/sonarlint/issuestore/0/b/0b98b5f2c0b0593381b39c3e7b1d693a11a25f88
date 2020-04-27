@@ -1,8 +1,8 @@
 
+xsquid:S00116*"TRename this field "is_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñƒä†ÿÿÿÿÿ8åˆò°š.
+wsquid:S001169"SRename this field "mod_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÞÄÇýÿÿÿÿ8åˆò°š.
+wsquid:S00116 "SRename this field "day_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Õ˜âýÿÿÿÿ8åˆò°š.
+vsquid:S00116%"WRename this field "content_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žüŒ©8åˆò°š.
+zsquid:UselessImportCheck"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ôÝžÕýÿÿÿÿ
 rsquid:S001164"SRename this field "add_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ð°†‘8åˆò°š.
 wsquid:S00116"SRename this field "day_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÀ·Öüÿÿÿÿ8åˆò°š.
-wsquid:S001169"SRename this field "mod_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÞÄÇýÿÿÿÿ8åˆò°š.
-zsquid:UselessImportCheck"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ôÝžÕýÿÿÿÿ
-vsquid:S00116%"WRename this field "content_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žüŒ©8åˆò°š.
-xsquid:S00116*"TRename this field "is_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñƒä†ÿÿÿÿÿ8åˆò°š.
-wsquid:S00116 "SRename this field "day_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Õ˜âýÿÿÿÿ8åˆò°š.

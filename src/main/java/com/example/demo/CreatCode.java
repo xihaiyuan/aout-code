@@ -66,14 +66,20 @@ public class CreatCode {
                 if (tableName.equals(objectTable)) {
                     ResultSet rs = dbmd.getColumns(null, "%", tableName, "%");
                     System.out.println("表名：" + tableName + "\t\n表字段信息：");
+                    int column = 0;
                     while (rs.next()) {
+                        ++column;
                         Field field = new Field();
 
-                        System.out.println("字段名：" + rs.getString("COLUMN_NAME") + "\t字段注释：" + rs.getString("REMARKS") + "\t字段数据类型：" + rs.getString("TYPE_NAME"));
+                        System.out.println("字段名：" + rs.getString("COLUMN_NAME") +
+                                "\t字段注释：" + rs.getString("REMARKS") +
+                                "\t字段数据类型：" + rs.getString("TYPE_NAME")
+                        );
 
                         field.setColumnName(rs.getString("COLUMN_NAME"));
                         field.setComment(rs.getString("REMARKS"));
                         field.setTypeName(rs.getString("TYPE_NAME"));
+
 
                         fieldList.add(field);
                     }

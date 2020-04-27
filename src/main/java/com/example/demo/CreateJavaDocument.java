@@ -12,6 +12,7 @@ import javax.lang.model.element.Modifier;
 import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.LogRecord;
@@ -19,20 +20,19 @@ import java.util.logging.LogRecord;
 @RestController
 public class CreateJavaDocument {
     //生成dot
-    public  void creatJavaDto(List<Field> fieldList) {
+    public void creatJavaDto(List<Field> fieldList) {
 
         List<FieldSpec> specsList = new ArrayList<>();
 
-        fieldList.forEach(item->{
-            String typeClass =  item.getTypeName()+".class";
-
-            FieldSpec fieldSpec =FieldSpec.builder(String.class, item.getColumnName(), Modifier.PRIVATE).addJavadoc(item.getComment()).build();
+        fieldList.forEach(item -> {
+            Class<?> javaType = JDBCTypesUtils.jdbcNameToJavaType(item.getTypeName());
+            String columnName = StrUtil.toJavaField(item.getColumnName());
+            FieldSpec fieldSpec = FieldSpec.builder(javaType, columnName, Modifier.PRIVATE).addJavadoc(item.getComment()).build();
             specsList.add(fieldSpec);
         });
 
 
-
-        TypeSpec helloWorld = TypeSpec.classBuilder("WishDTO")
+        TypeSpec DTO = TypeSpec.classBuilder("WishDTO")
                 .addModifiers(Modifier.PUBLIC)
                 .addSuperinterface(Serializable.class)
                 .addAnnotation(Data.class)
@@ -44,7 +44,7 @@ public class CreateJavaDocument {
         //todo 生成命名空间
         String packageName = "com.maoyan.air.nb.toolplatform.domain.dto";
 
-        JavaFile javaFile = JavaFile.builder(packageName, helloWorld)
+        JavaFile javaFile = JavaFile.builder(packageName, DTO)
                 .build();
 
 
@@ -102,7 +102,7 @@ public class CreateJavaDocument {
     }
 
     //生成Adapter文件
-    public void creatAdapter(){
+    public void creatAdapter() {
         //获取po文件地址：
 
         //todo 提取po与dot名
@@ -132,7 +132,7 @@ public class CreateJavaDocument {
         TypeName listOfHoverboards = ParameterizedTypeName.get(list, hoverboard);
 
         MethodSpec dtoToPo = MethodSpec.methodBuilder("dtoToPo")
-                .addModifiers(Modifier.PUBLIC,Modifier.STATIC)
+                .addModifiers(Modifier.PUBLIC, Modifier.STATIC)
                 .addParameter(ParameterDTO)
                 .beginControlFlow("if (wishDto == null)", System.class)
                 .addStatement("return null")
@@ -140,7 +140,7 @@ public class CreateJavaDocument {
 
                 .addStatement("$T wishPO = new $T()", bundlePo, bundlePo)
                 //todo 循环表字段
-                .addCode("wishPO.setId(wishDto.getTest);\n",bundlePo,bundleDto)
+                .addCode("wishPO.setId(wishDto.getTest);\n", bundlePo, bundleDto)
                 //返回po
                 .addStatement("return $T", bundlePo)
                 .returns(bundlePo)
@@ -173,7 +173,7 @@ public class CreateJavaDocument {
     }
 
     //生成Service
-    public void creatService(){
+    public void creatService() {
         //todo 生成DOT命名空间
         //DTO的命名空间
         String DtoPackageName = "com.maoyan.air.nb.toolplatform.domain.dto";
@@ -237,7 +237,7 @@ public class CreateJavaDocument {
     }
 
     //生成biz层代码
-    public void creatBiz(){
+    public void creatBiz() {
 
         String DtoPackageName = "com.maoyan.air.nb.toolplatform.domain.dto";
         ClassName bundleDto = ClassName.get(DtoPackageName, "WishDTO");
@@ -245,7 +245,6 @@ public class CreateJavaDocument {
         ClassName arrayList = ClassName.get("java.util", "ArrayList");
 
         TypeName listDto = ParameterizedTypeName.get(list, bundleDto);
-
 
 
         ParameterSpec limit = ParameterSpec.builder(Integer.class, "limit")
@@ -260,8 +259,8 @@ public class CreateJavaDocument {
                 .build();
 
         FieldSpec fieldSpec = FieldSpec.builder(InterFaceService, "wishService", Modifier.PRIVATE)
-                 .addAnnotation(Resource.class)
-                 .build();
+                .addAnnotation(Resource.class)
+                .build();
 
         TypeSpec biz = TypeSpec.classBuilder("WishBiz")
                 .addModifiers(Modifier.PUBLIC)
@@ -272,35 +271,32 @@ public class CreateJavaDocument {
                         .addModifiers(Modifier.PUBLIC)
                         .returns(int.class)
                         .addParameter(ParameterDTO)
-                        .addCode("return wishService.insert(wishDto);\n",bundleDto,bundleDto)
+                        .addCode("return wishService.insert(wishDto);\n", bundleDto, bundleDto)
                         .build())
                 .addMethod(MethodSpec.methodBuilder("update")
                         .addJavadoc("更新操作")
                         .addModifiers(Modifier.PUBLIC)
                         .returns(int.class)
                         .addParameter(ParameterDTO)
-                        .addCode("return wishService.update(wishDto);\n",bundleDto,bundleDto)
+                        .addCode("return wishService.update(wishDto);\n", bundleDto, bundleDto)
                         .build())
                 .addMethod(MethodSpec.methodBuilder("getCount")
                         .addJavadoc("获取总数")
                         .addModifiers(Modifier.PUBLIC)
                         .returns(int.class)
                         .addParameter(ParameterDTO)
-                        .addCode("return wishService.getCount(wishDto);\n",bundleDto,bundleDto)
+                        .addCode("return wishService.getCount(wishDto);\n", bundleDto, bundleDto)
                         .build())
                 .addMethod(MethodSpec.methodBuilder("getList")
                         .addJavadoc("获取数据列表")
                         .addModifiers(Modifier.PUBLIC)
                         .returns(listDto)
-                        .addCode("return wishService.getList(wishDto,limit,offset);\n",bundleDto,bundleDto)
+                        .addCode("return wishService.getList(wishDto,limit,offset);\n", bundleDto, bundleDto)
                         .addParameter(ParameterDTO)
                         .addParameter(limit)
                         .addParameter(offset)
                         .build())
                 .build();
-
-
-
 
 
         //todo 生成命名空间
