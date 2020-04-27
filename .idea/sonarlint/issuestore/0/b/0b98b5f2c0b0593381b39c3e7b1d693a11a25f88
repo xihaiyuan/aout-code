@@ -1,8 +1,4 @@
 
-xsquid:S00116*"TRename this field "is_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñƒä†ÿÿÿÿÿ8åˆò°š.
-wsquid:S001169"SRename this field "mod_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍŞÄÇıÿÿÿÿ8åˆò°š.
-wsquid:S00116 "SRename this field "day_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Õ˜âıÿÿÿÿ8åˆò°š.
-vsquid:S00116%"WRename this field "content_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üŒ©8åˆò°š.
-zsquid:UselessImportCheck"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ôİÕıÿÿÿÿ
-rsquid:S001164"SRename this field "add_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ°†‘8åˆò°š.
-wsquid:S00116"SRename this field "day_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÀ·Öüÿÿÿÿ8åˆò°š.
+squid:UselessImportCheck"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ôİÕıÿÿÿÿ8¨ı½Í›.
+squid:UselessImportCheck"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãÁ…”üÿÿÿÿ8¨ı½Í›.
+squid:UselessImportCheck"QRemove this unnecessary import: java.lang classes are always implicitly imported.(šÆ¿ˆıÿÿÿÿ8¨ı½Í›.

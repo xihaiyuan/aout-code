@@ -1,23 +1,24 @@
 
-bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(š©ìÙ
-Vsquid:S1481"3Remove this unused "creatMapperXml" local variable.(¦¢Ì°þÿÿÿÿ8ßÛ‰š.
-Fsquid:S1148T"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¿‹©®š.
-ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥ÿçÒ8˜ˆˆ®š.
-Nsquid:S1481"2Remove this unused "getPoFileList" local variable.(íø·¬üÿÿÿÿ
 ~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²¯¾§þÿÿÿÿ8˜ˆˆ®š.
-Isquid:S2440"-Remove this instantiation of "GetPoFileList".(íø·¬üÿÿÿÿ
-xsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÿ´!8±ŽÆ¯š.
-V
-squid:S106("9Replace this use of System.out or System.err by a logger.(ÌœÙÑ8¬Òˆ¯š.
 [
-squid:S106A"9Replace this use of System.out or System.err by a logger.(Î×ÝÊùÿÿÿÿ8ðÝ±®š.
+squid:S106J"9Replace this use of System.out or System.err by a logger.(ÄûÕïøÿÿÿÿ8±ŽÆ¯š.
+Vsquid:S1481"3Remove this unused "creatMapperXml" local variable.(¦¢Ì°þÿÿÿÿ8ßÛ‰š.
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(š’½´ùÿÿÿÿ8ßîä®š.
+xsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÿ´!8±ŽÆ¯š.
 V
 squid:S106+"9Replace this use of System.out or System.err by a logger.(ú˜¶8†ªÑ¯š.
 [
-squid:S106D"9Replace this use of System.out or System.err by a logger.(Í³È’øÿÿÿÿ8ËÍª®š.
-~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(š’½´ùÿÿÿÿ8ßîä®š.
+squid:S106A"9Replace this use of System.out or System.err by a logger.(Î×ÝÊùÿÿÿÿ8ðÝ±®š.
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(š©ìÙ8¶ûþÑ›.
+ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥ÿçÒ8˜ˆˆ®š.
 tsquid:S2068"Q'pwd' detected in this expression, review this potentially hard-coded credential.(²¯¾§þÿÿÿÿ8˜ˆˆ®š.
-~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øÊïìùÿÿÿÿ8±ŽÆ¯š.
+Nsquid:S1481"2Remove this unused "getPoFileList" local variable.(íø·¬üÿÿÿÿ
 zsquid:S1450"\Remove the "getConnection" field and declare it as a local variable in the relevant methods.(Øðê¦8Ÿ¼˜®š.
+[
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Í³È’øÿÿÿÿ8ËÍª®š.
+Fsquid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¿‹©®š.
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øÊïìùÿÿÿÿ8±ŽÆ¯š.
+Nsquid:S1481E"+Remove this unused "column" local variable.(äØœüÿÿÿÿ8ËºŒ­›.
 V
-squid:S106H"9Replace this use of System.out or System.err by a logger.(¼Œ¶¬8±ŽÆ¯š.
+squid:S106("9Replace this use of System.out or System.err by a logger.(ÌœÙÑ8¬Òˆ¯š.
+Isquid:S2440"-Remove this instantiation of "GetPoFileList".(íø·¬üÿÿÿÿ

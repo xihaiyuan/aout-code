@@ -20,7 +20,7 @@ import java.util.logging.LogRecord;
 @RestController
 public class CreateJavaDocument {
     //生成dot
-    public void creatJavaDto(List<Field> fieldList) {
+    public void creatJavaDto(List<Field> fieldList,String tableName) {
 
         List<FieldSpec> specsList = new ArrayList<>();
 
@@ -31,8 +31,9 @@ public class CreateJavaDocument {
             specsList.add(fieldSpec);
         });
 
+        String dtoName = StrUtil.upperFirstLetter(StrUtil.toJavaField(tableName))+"DTO";
 
-        TypeSpec DTO = TypeSpec.classBuilder("WishDTO")
+        TypeSpec DTO = TypeSpec.classBuilder(dtoName)
                 .addModifiers(Modifier.PUBLIC)
                 .addSuperinterface(Serializable.class)
                 .addAnnotation(Data.class)

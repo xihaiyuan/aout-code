@@ -29,7 +29,7 @@ public class StrUtil {
      * @param str
      * @return
      */
-    private static String upperFirstLetter(String str){
+    public static String upperFirstLetter(String str){
         return str.substring(0,1).toUpperCase() + str.substring(1);
     }
 
