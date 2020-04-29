@@ -1,0 +1,50 @@
+
+Fsquid:S1125s"(Remove the literal "true" boolean value.(ê„ÛŠ8–ƒœª›.
+nsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ÄÑÆ¶üÿÿÿÿ8‘¢™œ.
+?squid:S2129D"!Remove this "Integer" constructor(´ÆËæ8–ƒœª›.
+Dsquid:S2129L"!Remove this "Integer" constructor(ÁŠì‚üÿÿÿÿ8–ƒœª›.
+?squid:S2129?"!Remove this "Integer" constructor(Ğ÷µÌ8–ƒœª›.
+?squid:S2129E"!Remove this "Integer" constructor(±Ïäë8–ƒœª›.
+?squid:S2129O"!Remove this "Integer" constructor(­Ä½8–ƒœª›.
+Dsquid:S2129Y"!Remove this "Integer" constructor(ÃŠãÿÿÿÿÿ8–ƒœª›.
+\"squid:SwitchLastCaseIsDefaultCheck|""Add a default case to this switch.(´Ôƒ¼üÿÿÿÿ8•³’œ.
+Msquid:S001086")Either remove or fill this block of code.(¥¨›ıÿÿÿÿ8–ƒœª›.
+?squid:S2129R"!Remove this "Integer" constructor(¼–™ç8–ƒœª›.
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(à´8–ƒœª›.
+bsquid:S21477"DCombine this catch with the one at line 54, which has the same body.(Å¡ß8–ƒœª›.
+Dsquid:S2129S"!Remove this "Integer" constructor(¬º‰ ûÿÿÿÿ8–ƒœª›.
+Dsquid:S2129b"!Remove this "Integer" constructor(İÅßÍşÿÿÿÿ8–ƒœª›.
+?squid:S2129T"!Remove this "Integer" constructor(€ø³Œ8–ƒœª›.
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍÓöùÿÿÿÿ8–ƒœª›.
+isquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(˜¾¨¹8‘¢™œ.
+Gsquid:S1125s")Remove the literal "false" boolean value.(ê„ÛŠ8–ƒœª›.
+?squid:S2129P"!Remove this "Integer" constructor(ü£‰˜8–ƒœª›.
+Hsquid:S001087")Either remove or fill this block of code.(Å¡ß8–ƒœª›.
+?squid:S2129V"!Remove this "Integer" constructor(ş©ò¨8–ƒœª›.
+?squid:S2129^"!Remove this "Integer" constructor(â”¾Ü8–ƒœª›.
+Dsquid:S2129B"!Remove this "Integer" constructor(ÛôÅšşÿÿÿÿ8–ƒœª›.
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(æ®¼ÿÿÿÿÿ8–ƒœª›.
+?squid:S2129@"!Remove this "Integer" constructor(Æ’˜Á8–ƒœª›.
+hsquid:S1192„"IDefine a constant instead of duplicating this literal "DATETIME" 4 times.(ªàÌ8ƒè¼Í›.
+?squid:S2129K"!Remove this "Integer" constructor(éÑô¸8–ƒœª›.
+>squid:S2129C"!Remove this "Integer" constructor(Ş°ŒQ8–ƒœª›.
+nsquid:S1301|"KReplace this "switch" statement by "if" statements to increase readability.(´Ôƒ¼üÿÿÿÿ8•³’œ.
+isquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(İç„õ8‘¢™œ.
+nsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8‘¢™œ.
+?squid:S2129Q"!Remove this "Integer" constructor(·”ê8–ƒœª›.
+Dsquid:S2129W"!Remove this "Integer" constructor(¹ö¥úÿÿÿÿ8–ƒœª›.
+Dsquid:S2129M"!Remove this "Integer" constructor(…­òšıÿÿÿÿ8–ƒœª›.
+?squid:S2129N"!Remove this "Integer" constructor(Ò™³™8–ƒœª›.
+bsquid:S3358s"DExtract this nested ternary operation into an independent statement.(ê„ÛŠ8–ƒœª›.
+?squid:S2129F"!Remove this "Integer" constructor(ñæú³8–ƒœª›.
+isquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(ğÜ¨8‘¢™œ.
+?squid:S2129X"!Remove this "Integer" constructor(»Â€Ö8–ƒœª›.
+Dsquid:S2129H"!Remove this "Integer" constructor(æ¾ı¾øÿÿÿÿ8–ƒœª›.
+nsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8‘¢™œ.
+?squid:S2129_"!Remove this "Integer" constructor(‰İÂì8–ƒœª›.
+?squid:S2129G"!Remove this "Integer" constructor(åì„¾8–ƒœª›.
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÃŞéüÿÿÿÿ8–ƒœª›.
+?squid:S2129I"!Remove this "Integer" constructor(ñ®µ8–ƒœª›.
+n
+squid:S128}"LEnd this switch case with an unconditional break, return or throw statement.(‘®×ùÿÿÿÿ8£ê–œ.
+?squid:S2129A"!Remove this "Integer" constructor(¼¸°8–ƒœª›.
