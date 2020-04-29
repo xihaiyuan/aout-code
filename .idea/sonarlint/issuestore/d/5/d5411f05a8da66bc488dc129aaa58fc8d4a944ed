@@ -1,39 +1,39 @@
 
+Isquid:S1135`"2Complete the task associated to this TODO comment.(Ö†øÃ
+>squid:S1172"&Remove these unused method parameters.(É‘–ü
+?squid:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+csquid:S1192“"FDefine a constant instead of duplicating this literal "refid" 3 times.(†€á²ùÿÿÿÿ
 csquid:S1192O"GDefine a constant instead of duplicating this literal "prefix" 3 times.(Ò£½ùÿÿÿÿ
-Nsquid:S1481#"2Remove this unused "insertElement" local variable.(ÕÅ…¥ıÿÿÿÿ
+Vsquid:S1481"":Remove this unused "queryConditionElement" local variable.(óÂĞÄüÿÿÿÿ
+Nsquid:S1135)"2Complete the task associated to this TODO comment.(À€ğùÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(Ä†ªÀ
 [squid:S21477"DCombine this catch with the one at line 51, which has the same body.(ï­£Ä
+Isquid:S1481$"2Remove this unused "updateElement" local variable.(Ë˜³Œ
+Isquid:S1135"2Complete the task associated to this TODO comment.(¸şØ
+esquid:S1192“"HDefine a constant instead of duplicating this literal "include" 3 times.(†€á²ùÿÿÿÿ
 T
 squid:S1061"9Replace this use of System.out or System.err by a logger.(ÿß”Ìøÿÿÿÿ
-[squid:S21475"DCombine this catch with the one at line 51, which has the same body.(‹±ÃÆ
-jsquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Çíà
-ksquid:S1192V"ODefine a constant instead of duplicating this literal "userId != null" 3 times.(Íìó¸úÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.( ÄÆÏ
 Isquid:S1135"2Complete the task associated to this TODO comment.(áÌ®
 lsquid:S1192Q"PDefine a constant instead of duplicating this literal "suffixOverrides" 3 times.(¦‚†Êúÿÿÿÿ
-isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñè™
-?squid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Isquid:S1135"2Complete the task associated to this TODO comment.(Ä†ªÀ
-Jsquid:S1135„"2Complete the task associated to this TODO comment.(ĞÉš·
-~squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8´»÷­š.
+Msquid:S1481&"6Remove this unused "createGetCountXml" local variable.(şÈ˜¥
+?squid:S11486"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Nsquid:S1135r"2Complete the task associated to this TODO comment.(êÊúÿÿÿÿ
 isquid:S00117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÌ­
-Vsquid:S1481"":Remove this unused "queryConditionElement" local variable.(óÂĞÄüÿÿÿÿ
-=squid:S1172~"&Remove these unused method parameters.(¶“»Î
-csquid:S1192“"FDefine a constant instead of duplicating this literal "refid" 3 times.(†€á²ùÿÿÿÿ
-Qsquid:S1481%"5Remove this unused "createGetListXml" local variable.(èÁ›ïøÿÿÿÿ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñè™
 O
 squid:S106;"9Replace this use of System.out or System.err by a logger.(Ï£œ
 _squid:S1192"GDefine a constant instead of duplicating this literal "select" 3 times.(ùÛ¸Â
-Isquid:S1135"2Complete the task associated to this TODO comment.( ÄÆÏ
-esquid:S1192“"HDefine a constant instead of duplicating this literal "include" 3 times.(†€á²ùÿÿÿÿ
-Isquid:S1481$"2Remove this unused "updateElement" local variable.(Ë˜³Œ
-Isquid:S1135`"2Complete the task associated to this TODO comment.(Ö†øÃ
-Isquid:S1135"2Complete the task associated to this TODO comment.(¸şØ
-Nsquid:S1135)"2Complete the task associated to this TODO comment.(À€ğùÿÿÿÿ
-Nsquid:S1135S"2Complete the task associated to this TODO comment.(ÿŠÔÿÿÿÿÿ
-Msquid:S1481&"6Remove this unused "createGetCountXml" local variable.(şÈ˜¥
-nsquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÚ©øÿÿÿÿ
-ksquid:S1192"ODefine a constant instead of duplicating this literal "queryCondition" 3 times.(ãÚŒ¹ûÿÿÿÿ
-?squid:S11486"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Nsquid:S1135r"2Complete the task associated to this TODO comment.(êÊúÿÿÿÿ
->squid:S1172"&Remove these unused method parameters.(É‘–ü
 Nsquid:S1135"2Complete the task associated to this TODO comment.(ÏæÈŸøÿÿÿÿ
+Nsquid:S1481#"2Remove this unused "insertElement" local variable.(ÕÅ…¥ıÿÿÿÿ
+=squid:S1172~"&Remove these unused method parameters.(¶“»Î
+[squid:S21475"DCombine this catch with the one at line 51, which has the same body.(‹±ÃÆ
+Nsquid:S1135S"2Complete the task associated to this TODO comment.(ÿŠÔÿÿÿÿÿ
+~squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8´»÷­š.
+?squid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+ksquid:S1192"ODefine a constant instead of duplicating this literal "queryCondition" 3 times.(ãÚŒ¹ûÿÿÿÿ
+ksquid:S1192V"ODefine a constant instead of duplicating this literal "userId != null" 3 times.(Íìó¸úÿÿÿÿ
+Qsquid:S1481%"5Remove this unused "createGetListXml" local variable.(èÁ›ïøÿÿÿÿ
+Jsquid:S1135„"2Complete the task associated to this TODO comment.(ĞÉš·
+jsquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Çíà
+nsquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÚ©øÿÿÿÿ

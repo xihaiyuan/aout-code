@@ -1,46 +1,46 @@
 
-<squid:S2068" Remove this hard-coded password.(“ÎÉøÿÿÿÿ
-O
-squid:S106K"9Replace this use of System.out or System.err by a logger.(‡å˜ú
-O
-squid:S106@"9Replace this use of System.out or System.err by a logger.(üÔôœ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ıØ±üÿÿÿÿ
-O
-squid:S106D"9Replace this use of System.out or System.err by a logger.(Á»ï¾
-N
-squid:S106["9Replace this use of System.out or System.err by a logger.(Å¾‹:
-usquid:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ã„ûÿÿÿÿ
-T
-squid:S106I"9Replace this use of System.out or System.err by a logger.(İöêçøÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÜÛàùÿÿÿÿ
-T
-squid:S106G"9Replace this use of System.out or System.err by a logger.(Äšş½øÿÿÿÿ
 O
 squid:S106 "9Replace this use of System.out or System.err by a logger.(Û‚öà
-bsquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(øê€©
 O
-squid:S106H"9Replace this use of System.out or System.err by a logger.(Ã•”Ç
-psquid:S2293L"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŠËëÅ
-T
-squid:S106""9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-O
-squid:S106]"9Replace this use of System.out or System.err by a logger.(ÌœÙÑ
-O
-squid:S106A"9Replace this use of System.out or System.err by a logger.(¾ãñ
-T
-squid:S106C"9Replace this use of System.out or System.err by a logger.(âœÃõùÿÿÿÿ
-^squid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ğ×
-T
-squid:S106B"9Replace this use of System.out or System.err by a logger.(Á‘şÿÿÿÿ
-O
-squid:S106F"9Replace this use of System.out or System.err by a logger.(ãåâ
-T
-squid:S106J"9Replace this use of System.out or System.err by a logger.(¾Ÿ©üÿÿÿÿ
+squid:S106@"9Replace this use of System.out or System.err by a logger.(üÔôœ
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(©¯‡Êÿÿÿÿÿ
 N
 squid:S106E"9Replace this use of System.out or System.err by a logger.(Ä·¢m
+O
+squid:S106H"9Replace this use of System.out or System.err by a logger.(Ã•”Ç
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(âœÃõùÿÿÿÿ
+T
+squid:S106J"9Replace this use of System.out or System.err by a logger.(¾Ÿ©üÿÿÿÿ
+usquid:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ã„ûÿÿÿÿ
+O
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Á»ï¾
+O
+squid:S106A"9Replace this use of System.out or System.err by a logger.(¾ãñ
+N
+squid:S106["9Replace this use of System.out or System.err by a logger.(Å¾‹:
+O
+squid:S106K"9Replace this use of System.out or System.err by a logger.(‡å˜ú
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÜÛàùÿÿÿÿ
+<squid:S2068" Remove this hard-coded password.(“ÎÉøÿÿÿÿ
+T
+squid:S106I"9Replace this use of System.out or System.err by a logger.(İöêçøÿÿÿÿ
+O
+squid:S106F"9Replace this use of System.out or System.err by a logger.(ãåâ
+T
+squid:S106G"9Replace this use of System.out or System.err by a logger.(Äšş½øÿÿÿÿ
+^squid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ğ×
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ıØ±üÿÿÿÿ
+bsquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(øê€©
+T
+squid:S106B"9Replace this use of System.out or System.err by a logger.(Á‘şÿÿÿÿ
+psquid:S2293L"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŠËëÅ
+T
+squid:S106""9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
 T
 squid:S106\"9Replace this use of System.out or System.err by a logger.(öó¾ïøÿÿÿÿ
+O
+squid:S106]"9Replace this use of System.out or System.err by a logger.(ÌœÙÑ

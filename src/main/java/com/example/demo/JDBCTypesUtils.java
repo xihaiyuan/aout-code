@@ -32,23 +32,24 @@ public class JDBCTypesUtils {
                     Integer value = (Integer) fields[i].get(java.sql.Types.class);
                     jdbcTypes.put(name, value);
                     jdbcTypeValues.put(value, name);
-                    if(name.equals("INTEGER")){
-                        jdbcTypes.put("INT UNSIGNED", value);
-                        jdbcTypeValues.put(value, "INT UNSIGNED");
-
-                        jdbcTypes.put("INT", value);
-                        jdbcTypeValues.put(value, "INT");
-
-                    }
-
-                    if(name.equals("DATE")){
-                        jdbcTypes.put("DATETIME", value);
-                        jdbcTypeValues.put(value, "DATETIME");
-
-                        jdbcTypes.put("DATETIME", value);
-                        jdbcTypeValues.put(value, "DATETIME");
-
-                    }
+//                    if(name.equals("INTEGER")){
+//                        jdbcTypes.put("INT UNSIGNED", value);
+//                        jdbcTypeValues.put(value, "INT UNSIGNED");
+//
+//                        jdbcTypes.put("INT", value);
+//                        jdbcTypeValues.put(value, "INT");
+//
+//                    }
+//
+//                    if(name.equals("DATE")){
+//                        jdbcTypes.put("DATETIME", value);
+//                        jdbcTypeValues.put(value, "DATETIME");
+//
+//                        jdbcTypes.put("DATETIME", value);
+//                        jdbcTypeValues.put(value, "DATETIME");
+//
+//                    }
+                    supplement(name,value);
 
                 } catch (IllegalArgumentException e) {
                 } catch (IllegalAccessException e) {
@@ -117,5 +118,25 @@ public class JDBCTypesUtils {
     public static Class<?> jdbcNameToJavaType(String jdbcName){
         Integer key = getJdbcCode(jdbcName);
         return (key == null) ? Object.class : jdbcTypeToJavaType(key);
+    }
+
+    private static void supplement(String typeName,Integer value){
+        switch(typeName){
+            case "INTEGER":
+                jdbcTypes.put("INT UNSIGNED", value);
+                jdbcTypeValues.put(value, "INT UNSIGNED");
+
+                jdbcTypes.put("INT", value);
+                jdbcTypeValues.put(value, "INT");
+                break;
+            case "DATE":
+                jdbcTypes.put("DATETIME", value);
+                jdbcTypeValues.put(value, "DATETIME");
+
+                jdbcTypes.put("DATETIME", value);
+                jdbcTypeValues.put(value, "DATETIME");
+                break;
+        }
+
     }
 }

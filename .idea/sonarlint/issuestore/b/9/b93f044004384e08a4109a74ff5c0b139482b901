@@ -1,27 +1,27 @@
 
-Fsquid:S1148h"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8°®š.
 csquid:S1858]"E"toUpperCase" returns a string, there's no need to call "toString()".(Ñ§Û®8ï¨ø©š.
-isquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(©±ß8ŸÅ®ªš.
-V
-squid:S106?"9Replace this use of System.out or System.err by a logger.(¼Œ¶¬8ï¨ø©š.
-~squid:S00115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øÊïìùÿÿÿÿ8ï¨ø©š.
-nsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(Ä¿µÊùÿÿÿÿ8°®š.
-ysquid:S00115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥ÿçÒ8ï¨ø©š.
-~squid:S00115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²¯¾§şÿÿÿÿ8ï¨ø©š.
-nsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(Ä¿µÊùÿÿÿÿ8ï¨ø©š.
-nsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(¬èëÈúÿÿÿÿ8¯†¯ªš.
+jsquid:S00112["FDefine and throw a dedicated exception instead of using a generic one.(’›Öçÿÿÿÿÿ8ï¨ø©š.
+tsquid:S2068#"Q'pwd' detected in this expression, review this potentially hard-coded credential.(²¯¾§şÿÿÿÿ8ï¨ø©š.
 isquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(¤º–8‹Í«ªš.
 Fsquid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ï¨ø©š.
-nsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(Õ™Ğëúÿÿÿÿ8¯†¯ªš.
-[
-squid:S106D"9Replace this use of System.out or System.err by a logger.(Æ…šøÿÿÿÿ8ï¨ø©š.
-jsquid:S00112["FDefine and throw a dedicated exception instead of using a generic one.(’›Öçÿÿÿÿÿ8ï¨ø©š.
-Lsquid:S1481-")Remove this unused "path" local variable.(Ûå‰Èùÿÿÿÿ8‹Í«ªš.
+isquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(©±ß8ŸÅ®ªš.
+Ksquid:S1481+"(Remove this unused "fsv" local variable.(©ì¤Àûÿÿÿÿ8–›ªš.
+nsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(¬èëÈúÿÿÿÿ8¯†¯ªš.
+ysquid:S00115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥ÿçÒ8ï¨ø©š.
+nsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(Ä¿µÊùÿÿÿÿ8ï¨ø©š.
+V
+squid:S106?"9Replace this use of System.out or System.err by a logger.(¼Œ¶¬8ï¨ø©š.
 nsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(‚ÁÇ¿ùÿÿÿÿ8ï¨ø©š.
-tsquid:S2068#"Q'pwd' detected in this expression, review this potentially hard-coded credential.(²¯¾§şÿÿÿÿ8ï¨ø©š.
+Lsquid:S1481-")Remove this unused "path" local variable.(Ûå‰Èùÿÿÿÿ8‹Í«ªš.
+Fsquid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ï¨ø©š.
 [
 squid:S106;"9Replace this use of System.out or System.err by a logger.(Í³È’øÿÿÿÿ8ï¨ø©š.
-xsquid:S00115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÿ´!8ï¨ø©š.
-Fsquid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ï¨ø©š.
-Ksquid:S1481+"(Remove this unused "fsv" local variable.(©ì¤Àûÿÿÿÿ8–›ªš.
 esquid:S00112W"FDefine and throw a dedicated exception instead of using a generic one.(í¶Û—8ï¨ø©š.
+nsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(Õ™Ğëúÿÿÿÿ8¯†¯ªš.
+~squid:S00115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²¯¾§şÿÿÿÿ8ï¨ø©š.
+Fsquid:S1148h"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8°®š.
+xsquid:S00115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÿ´!8ï¨ø©š.
+nsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(Ä¿µÊùÿÿÿÿ8°®š.
+[
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Æ…šøÿÿÿÿ8ï¨ø©š.
+~squid:S00115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øÊïìùÿÿÿÿ8ï¨ø©š.
